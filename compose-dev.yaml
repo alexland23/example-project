@@ -1,0 +1,8 @@
+services:
+  applications:
+    image: golang:1.18.10
+    tty: true
+  db:
+    image: mongo:5.0.15
+    ports:
+      - 27017:27017
